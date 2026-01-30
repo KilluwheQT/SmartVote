@@ -17,10 +17,10 @@ export default function NotFound() {
           The page you're looking for doesn't exist or has been moved.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="/">
+          <Link href="/dashboard">
             <Button>
               <Home className="w-4 h-4 mr-2" />
-              Go Home
+              Go to Dashboard
             </Button>
           </Link>
           <Button variant="secondary" onClick={() => window.history.back()}>
